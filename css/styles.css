@@ -54,11 +54,11 @@ body {
 
 .header-contact {
     font-style: normal;
+    color: #434455;
 }
 
-.header-contact-list {
-    color:#434455;
-}
+.header-contact-list{}
+
 
 .header-contact-detail {
     font-weight: 400;
