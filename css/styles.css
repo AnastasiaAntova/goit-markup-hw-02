@@ -9,7 +9,7 @@ body {
 
 .header {
     font-family: "Raleway", sans-serif;
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
 .header-navigation {}
@@ -50,7 +50,9 @@ body {
 
 
 
-.header-contact {}
+.header-contact {
+    font-style: normal;
+}
 
 .header-contact-list {}
 
@@ -65,7 +67,7 @@ body {
 .header-contact-link:hover, 
 .header-contact-detail:focus,
 .header-contact-link:focus {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     color: orange;
 }
 .hero {}
@@ -86,7 +88,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
 }
 
 .features {}
@@ -112,7 +114,7 @@ body {
 }
 
 .team {
-    background: #F4F4FD;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -127,7 +129,7 @@ body {
 .team-list {}
 
 .team-list-title {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .team-logo {} 
@@ -186,7 +188,8 @@ body {
 }
 
 .footer {
-    background: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    background-color: #2E2F42;
     color: #4d5ae5;
 }
 
@@ -208,7 +211,4 @@ body {
 }
 .footer-web-color {
     color: #4D5AE5;
-}
-.studio-color{
-    color: #f4f4fd;
 }
