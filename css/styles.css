@@ -37,12 +37,12 @@ body {
     color: #434455;
 }
 .header-menu-link {
-    color: #2e2f42;
+    color: #434455;
 }
 
 
 .header-menu-item:hover,
-.header-menu-item:focus{
+.header-menu-item:focus {
     color: #404bbf;
 }
 .header-menu-link:hover,
@@ -69,8 +69,7 @@ body {
 .header-contact-link:hover, 
 .header-contact-detail:focus,
 .header-contact-link:focus {
-    background-color: #4D5AE5;
-    color: orange;
+    color: #404bbf;
 }
 .hero {
     background-color: #2e2f42;
