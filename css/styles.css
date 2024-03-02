@@ -1,14 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: white;
-  color: var(--navy-blue);
-  color: var(--iris);
+  background-color: #FFFFFF;
+  color: #2E2F42;
+  color: #4D5AE5;
 }
 :root {
         --navy-blue: #2E2F42;
 }
 
-.header {}
+.header {
+    background: #2E2F42;
+}
 
 .header-navigation {}
 
@@ -21,8 +23,8 @@ body {
     color: #2E2F42;
 }
 
-.iris-text {
-    color: var(--iris);
+.web-color {
+    color: #4D5AE5;
 }
 
 .header-menu-list {}
@@ -59,7 +61,7 @@ body {
 .header-contact-link:hover, 
 .header-contact-detail:focus,
 .header-contact-link:focus {
-    background: var(--iris);
+    background: #4D5AE5;
     color: orange;
 }
 .hero {}
@@ -70,7 +72,7 @@ body {
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white);
+    color: #FFFFFF;
 }
 
 .hero-btn {
@@ -79,9 +81,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white);
+    color: #FFFFFF;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: var(--iris);
+    background: #4D5AE5;
 }
 
 .features {}
@@ -103,10 +105,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
-.team {}
+.team {
+    background: #F4F4FD;
+}
 
 .team-title {
     font-size: 36px;
@@ -139,7 +143,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;        
-    color: var(--slate);
+    color: #434455;
 }
 
 .portfolio {}
@@ -173,10 +177,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
 }
 
-.footer {}
+.footer {
+    background: #2E2F42;
+}
 
 .fotter-link {
     font-weight: 700;
@@ -184,7 +190,7 @@ body {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--cloud);
+    color: #F4F4FD;
 }
 
 .footer-text {
@@ -192,13 +198,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: #F4F4FD;
 }
-.iris-color {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
+.footer-web-color {
+    color: #4D5AE5;
 }
