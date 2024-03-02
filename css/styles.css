@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Raleway',sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
   color: #2E2F42;
   color: #4D5AE5;
@@ -8,6 +8,7 @@ body {
 
 
 .header {
+    font-family: "Raleway", sans-serif;
     background: #2E2F42;
 }
 
