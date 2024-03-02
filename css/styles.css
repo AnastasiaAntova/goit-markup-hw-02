@@ -124,7 +124,9 @@ body {
 
 .team-list {}
 
-.team-list-title {}
+.team-list-title {
+    background: #FFFFFF;
+}
 
 .team-logo {} 
 
@@ -183,6 +185,7 @@ body {
 
 .footer {
     background: #2E2F42;
+    color: #4d5ae5;
 }
 
 .footer-link {
@@ -203,4 +206,7 @@ body {
 }
 .footer-web-color {
     color: #4D5AE5;
+}
+.studio-color{
+    color: #f4f4fd;
 }
