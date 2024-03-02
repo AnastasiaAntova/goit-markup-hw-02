@@ -34,7 +34,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
 }
 .header-menu-link {
     color: #2e2f42;
@@ -42,8 +42,10 @@ body {
 
 
 .header-menu-item:hover,
+.header-menu-item:focus{
+    color: #404bbf;
+}
 .header-menu-link:hover,
-.header-menu-item:focus,
 .header-menu-link:focus {
     color: #404bbf;
 }
@@ -70,7 +72,9 @@ body {
     background-color: #4D5AE5;
     color: orange;
 }
-.hero {}
+.hero {
+    background-color: #2e2f42;
+}
 
 .hero-title {
     font-weight: 700;
@@ -82,6 +86,7 @@ body {
 }
 
 .hero-btn {
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -89,6 +94,10 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
 }
 
 .features {}
