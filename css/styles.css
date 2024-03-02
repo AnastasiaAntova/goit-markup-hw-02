@@ -1,8 +1,10 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #FFFFFF;
   color: #2E2F42;
   color: #4D5AE5;
+  color: #434455;
 }
 :root {
         --navy-blue: #2E2F42;
@@ -69,7 +71,7 @@ body {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -82,7 +84,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
 }
 
@@ -114,7 +115,7 @@ body {
 
 .team-title {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -151,7 +152,7 @@ body {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -184,10 +185,10 @@ body {
     background: #2E2F42;
 }
 
-.fotter-link {
+.footer-link {
     font-weight: 700;
     font-size: 18px; 
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
