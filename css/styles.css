@@ -72,13 +72,11 @@ body {
 .header-contact-link {
     color: #434455;
 }
-.header-contact-detail:hover,
-.header-contact-detail:focus {
-    color: #4D5AE5;
-}
 
+.header-contact-detail:hover,
 .header-contact-link:hover, 
-.header-contact-link:focus {
+.header-contact-link:focus,
+.header-contact-detail:focus {
     color: #4D5AE5;
 
 
