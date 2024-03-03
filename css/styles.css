@@ -24,7 +24,7 @@ body {
 }
 
 .studio-color {
-    color: #2e2f42;
+    color:#2e2f42;
 }
 
 .header-menu-list {}
@@ -57,7 +57,9 @@ body {
     color: #434455;
 }
 
-.header-contact-list{}
+.header-contact-list{
+    color: #434455;
+}
 
 
 .header-contact-detail {
@@ -219,6 +221,6 @@ body {
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-.footer-web-color {
+.footer-studio-color {
     color: #f4f4fd;
 }
