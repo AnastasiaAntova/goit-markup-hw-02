@@ -68,11 +68,20 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.header-contact-link {
+    color: #434455;
+}
 .header-contact-detail:hover,
+.header-contact-detail:focus {
+    color: #4D5AE5;
+}
+
 .header-contact-link:hover, 
-.header-contact-detail:focus,
 .header-contact-link:focus {
-    color: #404bbf;
+    color: #4D5AE5;
+
+
 }
 .hero {
     background-color: #2e2f42;
